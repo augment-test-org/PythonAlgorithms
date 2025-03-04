@@ -15,13 +15,12 @@ rectangle collision detection.
 
 from __future__ import annotations
 
-from dataclasses import dataclass
 import math
-from typing import Tuple
+from dataclasses import dataclass
 
 from geometry import Circle, Rectangle
 
-Point = Tuple[float, float]
+Point = tuple[float, float]
 
 
 @dataclass
